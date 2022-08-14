@@ -1,5 +1,10 @@
 {
+  "itemGroup.silver_item_mod.general": "Silver Item Mod",
   "item.silver_item_mod.silver_ingot": "Silver Ingot",
   "item.silver_item_mod.silver_nugget": "Silver Nugget",
-  "block.silver_item_mod.silver_block": "Silver Block"
+  "item.silver_item_mod.raw_silver": "Raw Silver",
+  "block.silver_item_mod.silver_block": "Silver Block",
+  "block.silver_item_mod.silver_ore": "Silver Ore",
+  "block.silver_item_mod.deepslate_silver_ore": "Deepslate Silver Ore",
+  "block.silver_item_mod.raw_silver_block": "Raw Silver Block"
 }

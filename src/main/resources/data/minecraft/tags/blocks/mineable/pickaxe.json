@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "silver_item_mod:silver_block"
+    "silver_item_mod:silver_block",
+    "silver_item_mod:silver_ore",
+    "silver_item_mod:deepslate_silver_ore",
+    "silver_item_mod:raw_silver_block"
   ]
 }
