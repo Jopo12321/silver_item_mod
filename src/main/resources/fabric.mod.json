@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "awesome_mod",
+  "id": "silver_item_mod",
   "version": "1.0.0",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Silver item mod",
+  "description": "This mod adds silver items to game.",
   "authors": [
     "Jopo12321"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "",
+    "sources": "https://github.com/Jopo12321/awesome_mod"
   },
 
   "license": "MIT",
-  "icon": "assets/awesome_mod/icon.png",
+  "icon": "assets/silver_item_mod/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.jopo.awesome_mod.Main"
+      "com.jopo.silver_item_mod.Main"
     ]
   },
   "mixins": [
-    "awesome_mod.mixins.json"
+    "silver_item_mod.mixins.json"
   ],
 
   "depends": {

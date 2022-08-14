@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "silver_item_mod:block/silver_block" }
+  }
+}
