@@ -1,6 +1,7 @@
 package com.jopo.silver_item_mod;
 
 import com.jopo.silver_item_mod.block.MainBlock;
+import com.jopo.silver_item_mod.world.OreGeneration;
 import com.jopo.silver_item_mod.item.MainItem;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
@@ -28,10 +29,13 @@ public class Main implements ModInitializer {
 
 		MainItem items = new MainItem();
 		MainBlock block = new MainBlock();
+		OreGeneration oreGeneration = new OreGeneration();
 
 		LOGGER.info("Registering mod items for " + MOD_ID);
 		items.registerItems();
 		LOGGER.info("Registering mod blocks for " + MOD_ID);
 		block.registerBlocks();
+		LOGGER.info("Registering ore generation for " + MOD_ID);
+		oreGeneration.registerOreGeneration();
 	}
 }
